@@ -1,8 +1,8 @@
-import { processArray } from "./Manipulation";
-import { formatArrayStrings } from "./Manipulation";
+import { processArray } from "./arrayManipulation";
+import { formatArrayStrings } from "./arrayManipulation";
 
 function createUserProfiles(names) {
-  const numbers = names.map((_, index) => index + 1); // Generate numbers based on the names array length
+  const numbers = names.map((_, index) => index + 1); 
   const processedNumbers = processArray(numbers);
   const modifiedNames = formatArrayStrings(names, processedNumbers);
   
@@ -15,7 +15,3 @@ function createUserProfiles(names) {
   });
 }
 
-// Example usage:
-const names = ["Alice", "Bob", "Charlie"];
-const profiles = createUserProfiles(names);
-console.log(profiles);
