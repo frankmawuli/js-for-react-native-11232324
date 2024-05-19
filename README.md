@@ -32,4 +32,4 @@ const profiles = createUserProfiles(names);
 console.log(profiles);
 
 
-Link to repository [Your Email Address].
+Link to repository [https://github.com/frankmawuli/js-for-react-native-11232324.git].
