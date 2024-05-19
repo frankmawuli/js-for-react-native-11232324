@@ -13,7 +13,7 @@ This repository contains solutions for DCIT 202's assignments.
 - When the number in the array is an even number it multiplies it by two and when  it is odd it multiplies by 3
 - 
 
-### Task 2: CREATING A FORMAT STRING FUNCTION
+### Task 2: Creating a format string function
 - **Description:** In task2 we were require to  add a function formatArrayStrings in arrayManipulation .js
 - **File(s):** [arrayManipulation.js]
 - **Usage:** with the formatArrayStrings it takes an array of strings and and the output of the processedArray as an argument it returns the stringArray with the .map() method acting on it.
